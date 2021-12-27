@@ -1,40 +1,49 @@
 {
-  "name": "project1",
+  "name": "auditzy-landing",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
-    "styled-components": "^5.3.3",
-    "styled-system": "^5.1.5",
-    "web-vitals": "^1.0.1"
-  },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "dependencies": {
+    "@lottiefiles/react-lottie-player": "^3.4.1",
+    "@react-google-maps/api": "^2.7.0",
+    "axios": "^0.24.0",
+    "formik": "^2.2.9",
+    "hex-to-rgba": "^2.0.1",
+    "install": "^0.13.0",
+    "markdown-to-jsx": "^7.1.5",
+    "next": "^12.0.7",
+    "next-compose-plugins": "^2.2.1",
+    "next-images": "^1.8.4",
+    "react": "17.0.2",
+    "react-circular-progressbar": "^2.0.4",
+    "react-dom": "17.0.2",
+    "react-intl": "^5.20.10",
+    "react-lottie-player": "^1.4.0",
+    "react-modal": "^3.14.4",
+    "react-modal-video": "^1.2.8",
+    "react-multi-carousel": "^2.6.5",
+    "react-player": "^2.9.0",
+    "react-responsive-carousel": "^3.2.22",
+    "react-select": "^5.2.1",
+    "styled-components": "^5.3.1",
+    "styled-system": "^5.1.5",
+    "yup": "^0.32.11"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-next": "11.1.2",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-babel": "^5.3.1",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-prettier": "^4.0.0",
+    "husky": "^7.0.2",
+    "prettier": "^2.4.0"
   }
 }
