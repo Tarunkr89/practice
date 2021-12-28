@@ -1,0 +1,70 @@
+{
+  "parser": "babel-eslint",
+  "plugins": ["prettier", "react-hooks"],
+  "extends": ["airbnb", "prettier"],
+  "env": {
+    "jest": true,
+    "node": true,
+    "browser": true
+  },
+  "globals": {
+    "globalThis": "readonly"
+  },
+  "rules": {
+    // "prettier/prettier": [
+    //   "error",
+    //   {
+    //     "endOfLine": "auto"
+    //   }
+    // ],
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [".js", ".jsx"]
+      }
+    ],
+    "no-useless-constructor": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/jsx-one-expression-per-line": "off",
+    "import/no-extraneous-dependencies": "off",
+    "no-unexpected-multiline": 0,
+    "no-console": "off",
+    "camelcase": "off",
+    "no-plusplus": "off",
+    "arrow-body-style": "off",
+    "import/no-cycle": "off",
+    "jsx-a11y/click-events-have-key-events": "off",
+    "jsx-a11y/no-static-element-interactions": "off",
+    "no-restricted-syntax": "off",
+    "import/prefer-default-export": "off",
+    "react/prop-types": "off",
+    "import/no-named-as-default": "off",
+    "no-use-before-define": "off",
+    "no-underscore-dangle": "off",
+    "no-unused-expressions": "off",
+    "no-empty": [
+      "error",
+      {
+        "allowEmptyCatch": true
+      }
+    ],
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "js": "never",
+        "jsx": "never"
+      }
+    ],
+    "react/jsx-curly-newline": "off"
+  },
+  "settings": {
+    "import/extensions": [".js", ".jsx"],
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx"],
+        "moduleDirectory": ["node_modules", "./"]
+      }
+    }
+  }
+}
