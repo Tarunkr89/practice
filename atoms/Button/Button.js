@@ -6,7 +6,6 @@ import PropTypes from "prop-types";
 import Box from "../Box";
 import Flex from "../Flex";
 import Text from "../Text";
-import Loader from "../Loader";
 
 const ButtonBase = styled(Box)`
   position: relative;
@@ -215,7 +214,8 @@ export const Button = ({
           width="15px"
           mx="auto"
         >
-          <Loader loading />
+          {/* <Loader loading /> */}
+          Loading...
         </Flex>
       )}
       {label ? (
