@@ -22,7 +22,7 @@ export const Text = forwardRef(
 );
 
 Text.defaultProps = {
-  fontSize: "1.6rem",
+  fontSize: "1.5rem",
   id: null,
 };
 

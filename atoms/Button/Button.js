@@ -6,7 +6,7 @@ import PropTypes from "prop-types";
 import Box from "../Box";
 import Flex from "../Flex";
 import Text from "../Text";
-import Loader from "../Loader";
+
 
 const ButtonBase = styled(Box)`
   position: relative;
