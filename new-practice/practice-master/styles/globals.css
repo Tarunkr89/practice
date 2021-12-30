@@ -1,0 +1,339 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Barlow", sans-serif;
+}
+html {
+  /* Set 1rem to the browser default (10px) */
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Barlow;
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.btn-font div {
+  font-size: 1rem;
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.contact-input {
+  background: transparent !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: #ffffff !important;
+  font-size: 1.6rem;
+  font-weight: 400;
+  height: 30px;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  width: 100%;
+}
+
+.blog-search-input {
+  background: #f2f4f8;
+  border: none;
+  color: rgba(73, 80, 87, 0.6) !important;
+  font-size: 2rem;
+  font-weight: 400;
+  height: 60px;
+  padding-left: 5rem;
+  padding-right: 1.2rem;
+  width: 100%;
+  border-radius: 1.2rem;
+}
+.blog-search-input::placeholder {
+  font-size: 2rem;
+}
+
+textarea {
+  background: transparent;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: #ffffff !important;
+  font-size: 1.6rem;
+  font-weight: 400;
+  height: 6.5rem;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  width: 100%;
+}
+
+textarea::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+  opacity: 1;
+}
+
+textarea:focus {
+  outline: none !important;
+  color: rgba(255, 255, 255, 1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  box-shadow: none;
+}
+
+.contact-input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+  opacity: 1;
+}
+
+.contact-input:focus {
+  outline: none !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 1);
+  box-shadow: none;
+}
+
+.contact-input:-webkit-autofill,
+.contact-input:-webkit-autofill:hover,
+.contact-input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border-bottom: 1px solid rgba(255, 255, 255, 1) !important;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  -webkit-text-fill-color: #ffffff !important;
+  -webkit-box-shadow: none !important;
+  font-size: 1.6rem !important;
+  font-weight: 400 !important;
+  transition: background-color 5000s ease-in-out 0s;
+}
+.error {
+  color: red;
+  position: absolute;
+  font-size: 1.2rem;
+}
+
+.apply-input {
+  background: transparent;
+  border-bottom: 1px solid rgba(73, 71, 71, 0.3);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: rgba(73, 71, 71, 1) !important;
+  padding-bottom: 5px;
+  font-size: 2rem;
+  font-weight: 500;
+  width: 100%;
+}
+
+textarea {
+  background: transparent;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: #ffffff !important;
+  font-size: 1.6rem;
+  font-weight: 400;
+  height: 6.5rem;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  width: 100%;
+}
+
+textarea::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+  opacity: 1;
+}
+
+textarea:focus {
+  outline: none !important;
+  color: rgba(255, 255, 255, 1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  box-shadow: none;
+}
+
+.apply-input::placeholder {
+  color: rgba(73, 71, 71, 0.6);
+  opacity: 1;
+}
+
+.apply-input:focus {
+  outline: none !important;
+  border-bottom: 1px solid rgba(73, 71, 71, 0.3);
+  color: rgba(73, 71, 71, 1);
+  box-shadow: none;
+}
+
+.apply-input:-webkit-autofill,
+.apply-input:-webkit-autofill:hover,
+.apply-input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border-bottom: 1px solid rgba(73, 71, 71, 0.3) !important;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  -webkit-text-fill-color: rgba(73, 71, 71, 1) !important;
+  -webkit-box-shadow: none !important;
+  font-size: 2rem !important;
+  font-weight: 500 !important;
+  transition: background-color 5000s ease-in-out 0s;
+}
+/* input[type="file"] {
+  color: transparent !important;
+} */
+::-webkit-file-upload-button {
+  background: #017ffa;
+  color: white;
+  padding: 8px 25px;
+  font-size: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  border-color: #017ffa;
+  transition: all 0.15s ease;
+  letter-spacing: 1px;
+  box-sizing: border-box;
+  outline: none;
+  cursor: pointer;
+  line-height: 1.5;
+  display: inline-block;
+  font-weight: bold;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+}
+@media only screen and (max-width: 600px) {
+  ::-webkit-file-upload-button {
+    background: #017ffa;
+    color: white;
+    width: 16.9rem;
+    height: 3.6rem;
+    padding: 6px 25px;
+    font-size: 16px;
+    border-radius: 6px;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+    border-color: #017ffa;
+    transition: all 0.15s ease;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+    outline: none;
+    cursor: pointer;
+    line-height: 1.5;
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+  }
+  .apply-input {
+    background: transparent;
+    border-bottom: 1px solid rgba(73, 71, 71, 0.3);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: rgba(73, 71, 71, 1) !important;
+    padding-bottom: 5px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    width: 100%;
+  }
+
+  textarea {
+    background: transparent;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #ffffff !important;
+    font-size: 1.6rem;
+    font-weight: 400;
+    height: 6.5rem;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    width: 100%;
+  }
+
+  textarea::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+    opacity: 1;
+  }
+
+  textarea:focus {
+    outline: none !important;
+    color: rgba(255, 255, 255, 1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    box-shadow: none;
+  }
+
+  .apply-input::placeholder {
+    color: rgba(73, 71, 71, 0.6);
+    opacity: 1;
+  }
+
+  .apply-input:focus {
+    outline: none !important;
+    border-bottom: 1px solid rgba(73, 71, 71, 0.3);
+    color: rgba(73, 71, 71, 1);
+    box-shadow: none;
+  }
+
+  .apply-input:-webkit-autofill,
+  .apply-input:-webkit-autofill:hover,
+  .apply-input:-webkit-autofill:focus,
+  textarea:-webkit-autofill,
+  textarea:-webkit-autofill:hover,
+  textarea:-webkit-autofill:focus,
+  select:-webkit-autofill,
+  select:-webkit-autofill:hover,
+  select:-webkit-autofill:focus {
+    border-bottom: 1px solid rgba(73, 71, 71, 0.3) !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    -webkit-text-fill-color: rgba(73, 71, 71, 1) !important;
+    -webkit-box-shadow: none !important;
+    font-size: 1.6rem !important;
+    font-weight: 500 !important;
+    transition: background-color 5000s ease-in-out 0s;
+  }
+
+  .apply-input input[type="file" i] {
+    cursor: default !important;
+    align-items: center !important;
+    color: inherit !important;
+    text-overflow: ellipsis !important;
+    white-space: pre !important;
+    text-align: start !important;
+    padding: initial !important;
+    border: initial !important;
+    overflow: hidden !important;
+  }
+}
