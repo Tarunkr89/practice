@@ -21,7 +21,7 @@ export const Homepage = () => {
         <Flex>
           {data.map((tab, index) => {
             return (
-              <Text key={tab.id} p="2rem" ml="10rem" cursor="pointer" onClick={() => handleTabSwitch(tab.id)} color={isSelectedTab === index ? "primary.50" : "grey"} fontWeight="bold">
+              <Text key={tab.id} p="2rem" ml="7.2rem" cursor="pointer" onClick={() => handleTabSwitch(tab.id)} color={isSelectedTab === index ? "primary.50" : "grey"} fontWeight="bold">
                 {tab.name}
               </Text>
             );
