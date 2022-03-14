@@ -48,6 +48,11 @@ export const Box = styled.div`
     scCss`
         text-transform: ${textTransforn};
       `}
+      ${({ fontWeight }) =>
+    fontWeight &&
+    scCss`
+        font-weight: ${fontWeight};
+      `}
   ${({ transform }) =>
     transform &&
     scCss`
